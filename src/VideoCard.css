@@ -1,11 +1,48 @@
 .videoCard {
-    border: 1px solid black;
     flex: 0.25;
     max-height: 250px;
-    display: flex;
-    flex-direction: column;
+    min-width: 22%;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    align-content: flex-start;
 }
 
 .videoCard__info {
     display: flex;
+    margin-top: 14px;
 }
+
+.videoCard__infoText {
+    margin-left: 12px;
+    flex: 1;
+    font-size: 14px;
+    color: #606060;
+}
+
+.videoCard__infoTitle {
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #030303;
+}
+
+.videoCard__channelName {
+    font-size: 14px;
+   
+}
+
+.videoCard__channelImageContainer {
+    height: 36px;
+    width: 36px;
+    /* border: 1px solid orange; */
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.videoCard__channelImageContainer > img {
+    width: 100%;
+}
+
+.videoCard__thumbnail {
+    width: 100%;
+}
+

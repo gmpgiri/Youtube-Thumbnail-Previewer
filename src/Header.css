@@ -1,8 +1,29 @@
 .header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    height: 50px;
 }
 
 .header__search {
     flex: 1;
+    display: flex;
+    align-items: center;
+    height: 30px;
 }
+
+.header__input input{
+    padding: 7px !important;
+}
+
+.header__searchButton {
+    background-color: #F0F0F0 !important;
+    height: 34px;
+}
+
+.header__logo {
+    height: 45px;
+    width: 80px;
+    object-fit: contain;
+}
+
